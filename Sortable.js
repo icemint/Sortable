@@ -308,6 +308,7 @@
 				return;
 			}
 
+			evt.stopPropagation();
 
 			// Prepare `dragstart`
 			this._prepareDragStart(evt, touch, target);
